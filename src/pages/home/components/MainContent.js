@@ -3,6 +3,7 @@ import TypeIt from 'typeit-react';
 import Moment from 'react-moment';
 import Edu from "../../edu/EduSingle";
 import Porto from "../../portfolio/PortoSingle";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 // const [index,setIndex] = useState(0);
   let chatAr = [
@@ -97,6 +98,7 @@ const MainContent = () => {
           <Porto />
         </div>
       </div>
+     <SpeedInsights />
     </div>
   );
 }
