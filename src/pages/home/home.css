@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "A little Sun";
+  src: local("A little Sun"), url("../../fonts/alilsun.ttf") format("truetype");
+}
+
+.alifont {
+  font-family: "A little Sun";
+}
+
+html {
+  scroll-behavior: smooth;
+}
